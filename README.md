@@ -12,3 +12,4 @@
 10. Прописываем в консоль php artisan migrate
 11. Прописываем в консоль php artisan serve
 12. Чтобы запустить тесты пропишите в консоль php artisan test
+13. Если вы хотите загрузить аудиокнигу или изображение размером больше 2MB, найдите строчку upload_max_filesize и post_max_size и замените их значение на желаемое количество MB (например, upload_max_filesize = 30MB, post_max_size = 50MB) и
