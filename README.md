@@ -10,6 +10,7 @@
 8. Меняем файл .env.example на .env в папке front
 9. Чтобы вы могли почитать книги и прослушать аудиокниги, которые есть в базе данных, замените папку BookLib/storage/app/public на папку public в корне проекта
 10. Прописываем в консоль php artisan migrate
-11. Прописываем в консоль php artisan serve
-12. Чтобы запустить тесты пропишите в консоль php artisan test
-13. Если вы хотите загрузить аудиокнигу или изображение размером больше 2MB, найдите строчку upload_max_filesize и post_max_size и замените их значение на желаемое количество MB (например, upload_max_filesize = 30MB, post_max_size = 50MB) и
+11. Прописываем в консоль php artisan storage:link
+12. Прописываем в консоль php artisan serve
+13. Чтобы запустить тесты пропишите в консоль php artisan test
+14. Если вы хотите загрузить аудиокнигу или изображение размером больше 2MB, найдите строчку upload_max_filesize и post_max_size и замените их значение на желаемое количество MB (например, upload_max_filesize = 30MB, post_max_size = 50MB) и
